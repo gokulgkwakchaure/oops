@@ -6,7 +6,10 @@ class demo{
   public function details(){
     echo"This is my details";
   }
- 
+  
+  public function __construct(){
+    echo"Call constructor function";
+  }
 }
 
 $obj = new demo();
