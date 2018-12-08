@@ -6,6 +6,9 @@ class demo{
   public function details(){
     echo"This is my details";
   }
+  public function viewinfo(){
+   echo"View Information function created successfully"; 
+  }
  
 }
 
